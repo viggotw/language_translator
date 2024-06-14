@@ -1,0 +1,4 @@
+language_translator/my_package.egg-info/
+_translation_checkpoint.json
+input_texts.txt
+translated_texts.json
