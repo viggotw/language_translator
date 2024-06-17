@@ -16,7 +16,7 @@ from language_translator import LanguageTranslator
 translator = LanguageTranslator()
 translated_text = translator.translate_text(text="Hello, how are you", src_lang='en', dest_lang='fr')
 print(translated_text)
-# >>> "Bonjour, comment ça va"
+# >>> 'Bonjour comment allez-vous'
 ```
 
 ## Translate multiple strings
@@ -28,7 +28,7 @@ texts = ["Hello, how are you", "I am fine, thank you"]
 translated_texts = translator.translate_list(texts=texts, src_lang='en', dest_lang='fr')
 
 print(translated_texts)
-# >>> ["Bonjour, comment ça va", "Je vais bien, merci"]
+# >>> ['Bonjour comment allez-vous', 'Je vais bien merci']
 ```
 
 ## Translate large number of strings using checkpoints
